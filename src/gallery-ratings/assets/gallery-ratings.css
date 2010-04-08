@@ -5,7 +5,7 @@
 .yui3-ratings .yui3-star-rating a:active,
 .yui3-ratings .yui3-star-rating a:focus,
 .yui3-ratings .yui3-star-rating .yui3-current-rating{
-  background: url(images/star.gif) left -1000px repeat-x;
+  background: url(star.gif) left -1000px repeat-x;
 }
 .yui3-ratings .yui3-star-rating{
   position:relative;
@@ -44,7 +44,7 @@
 .yui3-ratings a.yui3-zero-stars:hover,
 .yui3-ratings a.yui3-zero-stars:active,
 .yui3-ratings a.yui3-zero-stars:focus {
-  background-image: url(images/blck25_1.gif);
+  background-image: url(blck25_1.gif);
   background-repeat: no-repeat;
   background-position: left top;
   outline:none;
@@ -101,12 +101,12 @@
 .yui3-ratings .yui3-small-star a:active,
 .yui3-ratings .yui3-small-star a:focus,
 .yui3-ratings .yui3-small-star .yui3-current-rating{
-  background-image: url(images/star_small.gif);
+  background-image: url(star_small.gif);
   line-height: 10px;
   height: 10px;
 }
 .yui3-ratings a.yui3-zero-stars.yui3-small-star {
-  background-image: url(images/blck10_1.gif);
+  background-image: url(blck10_1.gif);
   height: 10px;
   width: 10px;
   line-height: 10px;
