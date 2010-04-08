@@ -10,7 +10,7 @@
 	<style type="text/css">
 		body {
   		margin-top: 1.0em;
-  		background-color: #f3b43f;
+  		background-color: #fff;
 		  font-family: "Helvetica,Arial,FreeSans";
   		color: #000000;
     }
@@ -49,13 +49,25 @@
       <span class="small">by <a href="http://github.com/petey">petey</a></span></h1>
 
     <div class="description">
-      YUI3 Gallery Modules
+      YUI3 Gallery-Rating
     </div>
 
-    <p>Gallery-Rating example</p><h2>Authors</h2>
-<p>Adam Moore (adamoore@yahoo-inc.com)<br/>YUI Builder (build@yuilibrary.com)<br/>Dav Glass (davglass@gmail.com)<br/>Luke Smith (lsmith@yahoo-inc.com)<br/><br/>      </p>
-<h2>Contact</h2>
-<p> (petey31@yahoo.com)<br/>      </p>
+    <h2>Gallery-Rating example</h2>
+    Put a node in your source that represents the location of the rating widget. This should contain a number value that represents the current value.
+    <pre>&lt;span id="myWidget"&gt;2.5&lt;/span&gt;</pre>
+    Then configure the ratings widget as desired:
+    <pre>
+YUI().use('gallery-ratings', function(Y) {
+  var ratings = new Y.Ratings(
+    { srcNode: "#myWidget" }, // The source node for the widget
+    inline: true,             // Should the widget be inline? Default is false
+    skin: "small"             // Should the widget use smaller graphics? Default is "default"
+  }); 
+});
+    </pre>
+    
+    <h2>Author</h2>
+    <p>Peter Peterson (petey31@yahoo.com)</p>
 
 
     <h2>Download</h2>
