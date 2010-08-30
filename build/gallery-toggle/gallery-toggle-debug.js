@@ -35,35 +35,7 @@ YUI.add('gallery-toggle', function(Y) {
             value : "on",
             validator : "_validateSelected",
             broadcast: 1
-        },
-
-        attrA : {
-            value: "A"                     // The default value for attrA, used if the user does not set a value during construction.
-
-            /*
-            , valueFn: "_defAttrAVal"      // Can be used as a substitute for "value", when you need access to "this" to set the default value.
-             
-            , setter: "_setAttrA"          // Used to normalize attrA's value while during set. Refers to a prototype method, to make customization easier
-            , getter: "_getAttrA"          // Used to normalize attrA's value while during get. Refers to a prototype method, to make customization easier
-            , validator: "_validateAttrA"  // Used to validate attrA's value before updating it. Refers to a prototype method, to make customization easier
-
-            , readOnly: true               // Cannot be set by the end user. Can be set by the component developer at any time, using _set
-            , writeOnce: true              // Can only be set once by the end user (usually during construction). Can be set by the component developer at any time, using _set
-            
-            , lazyAdd: false               // Add (configure) the attribute during initialization. 
-            
-                                           // You only need to set lazyAdd to false if your attribute is
-                                           // setting some other state in your setter which needs to be set during initialization 
-                                           // (not generally recommended - the setter should be used for normalization. 
-                                           // You should use listeners to update alternate state). 
-
-            , broadcast: 1                 // Whether the attribute change event should be broadcast or not.
-            */
         }
-        
-        // ... attrB, attrC, attrD ... attribute configurations. 
-
-        // Can also include attributes for the super class if you want to override or add configuration parameters
     };
 
     /* 
