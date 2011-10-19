@@ -154,4 +154,4 @@ YUI.add('gallery-ratings', function(Y) {
 
 
 
-}, 'gallery-2010.04.14-19-47' ,{requires:['widget', 'substitute']});
+}, '@VERSION@' ,{requires:['widget', 'substitute']});
